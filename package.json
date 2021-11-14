@@ -1,9 +1,9 @@
 {
-  "name": "zoomkoding.com",
+  "name": "blog.leedo.me",
   "private": false,
-  "description": "A neat blog theme for developers",
-  "version": "2.0.0",
-  "author": "zoomkoding <zoomkoding@gmail.com>",
+  "description": "LeeDo's development blog",
+  "version": "1.0.0",
+  "author": "Lee, YoungHoon <nobel6018@gmail.com>",
   "dependencies": {
     "@mui/icons-material": "^5.1.0",
     "@mui/material": "^5.1.0",
@@ -55,12 +55,5 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zoomkoding/zoomkoding-gatsby-blog"
-  },
-  "bugs": {
-    "url": "https://github.com/zoomkoding/zoomkoding-gatsby-blog/issues"
   }
 }
