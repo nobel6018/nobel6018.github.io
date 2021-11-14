@@ -10,6 +10,7 @@ const Layout = ({ children }) => {
     query SiteTitleQuery {
       site {
         siteMetadata {
+          showAboutLink
           title
           author {
             name
@@ -21,11 +22,11 @@ const Layout = ({ children }) => {
       }
     }
   `);
-  const { title, author } = data.site.siteMetadata;
+  const { title, author, showAboutLink } = data.site.siteMetadata;
 
   return (
     <div className="page-wrapper">
-      <PageHeader siteTitle={title || `Title`} />
+      <PageHeader siteTitle={title || `Title`} showAboutLink={showAboutLink} />
       <main className="page-content">{children}</main>
       <PageFooter
         author={author.name || `Author`}

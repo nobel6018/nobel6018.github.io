@@ -24,6 +24,7 @@ module.exports = {
     },
   },
   showBioInMainPage: false,
+  showAboutLink: true,
 
   // metadata for About Page
   about: {

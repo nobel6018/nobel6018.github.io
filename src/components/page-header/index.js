@@ -4,7 +4,7 @@ import Post from '../../models/post';
 import PostSearch from '../post-search';
 import './style.scss';
 
-function PageHeader({ siteTitle }) {
+function PageHeader({ siteTitle, showAboutLink }) {
   return (
     <StaticQuery
       query={graphql`
@@ -33,9 +33,11 @@ function PageHeader({ siteTitle }) {
               </Link>
             </div>
             <div className="trailing-section">
-              {/*<Link className="link" to="/about">*/}
-              {/*  about*/}
-              {/*</Link>*/}
+              {showAboutLink && (
+                <Link className="link" to="/about">
+                  about
+                </Link>
+              )}
               <Link className="link" to="/posts">
                 posts
               </Link>
