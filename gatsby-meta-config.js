@@ -2,14 +2,14 @@ module.exports = {
   title: `v2.leedo.me`,
   description: `이도(李裪)`,
   language: `ko`,
-  siteUrl: `https://blog.leedo.me/`,
+  siteUrl: `https://v2.leedo.me/`,
   ogImage: `/og-image.png`,
   comments: {
     utterances: {
       repo: `nobel6018/nobel6018.github.io`,
     },
   },
-  ga: '0', // Google Analytics Tracking ID
+  ga: 'G-7FPPR1L7LZ', // Google Analytics Tracking ID
   author: {
     name: `이영훈`,
     bio: {
