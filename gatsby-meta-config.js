@@ -6,7 +6,7 @@ module.exports = {
   ogImage: `/og-image.png`,
   comments: {
     utterances: {
-      repo: ``, // `zoomkoding/zoomkoding-gatsby-blog`,
+      repo: `nobel6018/nobel6018.github.io`,
     },
   },
   ga: '0', // Google Analytics Tracking ID
@@ -23,6 +23,7 @@ module.exports = {
       email: `nobel6018@gmail.com`,
     },
   },
+  showBioInMainPage: false,
 
   // metadata for About Page
   about: {
