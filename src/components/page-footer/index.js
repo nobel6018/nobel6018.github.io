@@ -10,7 +10,7 @@ function PageFooter({ author, githubUrl }) {
         <a href={githubUrl}>{author}</a>
         &nbsp;thanks to
         <a href="https://github.com/zoomKoding/zoomkoding-gatsby-blog">
-          &nbsp;zoomkoding-gatsby
+          &nbsp;zoomkoding
         </a>
       </p>
     </footer>

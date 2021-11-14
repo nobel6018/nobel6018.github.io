@@ -11,6 +11,7 @@
   .page-footer {
     @include content-max-width;
     text-align: center;
+    font-size: 85%;
 
     .link {
       font-weight: 700;
