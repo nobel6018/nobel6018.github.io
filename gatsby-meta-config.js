@@ -9,7 +9,7 @@ module.exports = {
       repo: `nobel6018/nobel6018.github.io`,
     },
   },
-  ga: 'UA-212825109-1', // Google Analytics Tracking ID
+  ga: '', // Google Analytics Tracking ID
   author: {
     name: `이영훈`,
     bio: {
